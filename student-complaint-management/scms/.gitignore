@@ -1,0 +1,27 @@
+# Node.js frontend dependencies and builds
+
+node_modules/
+dist/
+
+# Gradle build files and caches
+
+.gradle/
+**/.gradle/
+**/build/
+
+# IDE and operating system files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and environment variables
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+*.log
